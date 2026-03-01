@@ -1,0 +1,135 @@
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links a:hover {
+    color: #dbc900;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+/* make the video cover the hero area and sit behind the content */
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.product-video {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-container {
+        position:relative;
+        z-index:1;
+        display:flex;
+        align-items:center;
+        padding:50px;
+        gap:50px;
+      }
+      
+      .content-left {
+        flex:1;
+        text-align:center;
+      }
+      
+      .content-right {
+        flex:1;
+        text-align:left;
+        font-size: 25px;
+      }
+
+.testimonials {
+    background: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonial-card {
+    background: #1c1c1c;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-left: 4px solid #124b85;
+}
+
+.social {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.social-post {
+    margin: 20px;
+}
+
+.social-post img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.social-video {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+.about {
+    background-color: rgb(0, 0, 0);
+
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+.contact {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+}
+.footer {
+   
+    color: white;
+    text-align: center;
+}

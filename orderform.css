@@ -1,0 +1,151 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+}
+
+
+header {
+    background-color: #000;
+    padding: 15px 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links a:hover {
+    color: #dbc900;
+}     
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+.order-container {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 40px;
+        background-color: #1c1c1c;
+        border-radius: 10px;
+        color: white;
+      }
+
+      .order-container h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #444;
+        border-radius: 5px;
+        background-color: #2a2a2a;
+        color: white;
+        font-family: inherit;
+        box-sizing: border-box;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+
+      .products-section {
+        margin: 30px 0;
+        padding: 20px;
+        background-color: #111;
+        border-radius: 5px;
+      }
+
+      .products-section h3 {
+        margin-top: 0;
+        color: #dbc900;
+      }
+
+      .product-option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .product-option {
+        width: auto;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+      .product-option label {
+        margin: 0;
+        flex: 1;
+      }
+
+      .product-quantity {
+        width: 60px;
+        padding: 5px;
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: #dbc900;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+
+      .submit-btn:hover {
+        background-color: #e8d400;
+      }
+
+      .required {
+        color: #dbc900;
+      }
