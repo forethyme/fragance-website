@@ -149,3 +149,8 @@ nav {
       .required {
         color: #dbc900;
       }
+
+      .footer {
+        text-align: center;
+        color: #f5f5f5;
+      }
