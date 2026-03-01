@@ -64,7 +64,7 @@ nav {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6); /* dark overlay */
+    background: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -79,7 +79,7 @@ nav {
 
 
 
-/* make the video cover the hero area and sit behind the content */
+
 .bg-video {
     position: fixed;
     top: 0;
@@ -103,7 +103,7 @@ nav {
     flex-wrap: wrap;
 }
 
-/* Hover interactions: container hover subtly lifts all cards; individual card hover elevates further */
+
 .product-card {
     background: rgb(0, 0, 0);
     padding: 15px;
@@ -112,22 +112,19 @@ nav {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Hover each card individually when you hover that card */
+
 .product-card:hover {
     transform: translateY(-12px) scale(1.04);
     box-shadow: 0 20px 40px rgba(0,0,0,0.35);
 }
 
-/* make every product image a fixed square so they appear consistent */
+
 .product-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 4px;
 }
-
-/* any other image in main gets the same treatment to keep page consistent */
-
 
 .product-card a {
     text-decoration: none;
