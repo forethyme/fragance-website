@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence Vault - Order Form</title>
+    <link rel="stylesheet" href="orderform.css" />
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Essence Vault</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="main.html#products">Our Products</a></li>
+          <li><a href="main.html#about">About us</a></li>
+          <li><a href="main.html#contact">Contact</a></li>
+          <li><a href="orderform.html">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <video autoplay muted loop playsinline class="bg-video">
+          <source src="video/white-black.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      <div class="order-container">
+        <h1>Order Form</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name </label>
+            <input type="text" id="name" name="name"/>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email"/>
+          </div>
+
+          <div class="form-group">
+            <label for="phone"
+              >Phone Number</label
+            >
+            <input type="tel" id="phone" name="phone"/>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address"/>
+          </div>
+
+          
+          <div class="products-section">
+            <h3>Men's Fragrances</h3>
+
+            <div class="product-option">
+              <input
+                type="checkbox"
+                id="ice"
+                name="products"
+                value="Hawas Ice"
+              />
+              <label for="ice">Hawas Ice</label>
+              <input
+                type="number"
+                name="quantity-ice"
+                min="1"
+                value="1"
+                class="product-quantity"
+              />
+            </div>
+
+            <div class="product-option">
+              <input
+                type="checkbox"
+                id="fire"
+                name="products"
+                value="Hawas Fire"
+              />
+              <label for="fire">Hawas Fire</label>
+              <input
+                type="number"
+                name="quantity-fire"
+                min="1"
+                value="1"
+                class="product-quantity"
+              />
+            </div>
+
+            <div class="product-option">
+              <input
+                type="checkbox"
+                id="elixir"
+                name="products"
+                value="Hawas Elixir"
+              />
+              <label for="elixir">Hawas Elixir</label>
+              <input
+                type="number"
+                name="quantity-elixir"
+                min="1"
+                value="1"
+                class="product-quantity"
+              />
+            </div>
+
+            <h3 style="margin-top: 20px">Women's Fragrances</h3>
+
+            <div class="product-option">
+              <input
+                type="checkbox"
+                id="diva"
+                name="products"
+                value="Hawas Diva"
+              />
+              <label for="diva">Hawas Diva</label>
+              <input
+                type="number"
+                name="quantity-diva"
+                min="1"
+                value="1"
+                class="product-quantity"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="notes">Special Notes</label>
+            <textarea
+              id="notes"
+              name="notes"
+              placeholder="Any special requests or notes..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Submit Order</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Essence Vault</p>
+    </footer>
+  </body>
+</html>
