@@ -54,6 +54,16 @@ nav {
     z-index: -1;
     object-fit: cover;
 }
+.promo-banner{
+    background:#dfb50c;
+    padding:10px;
+    border-radius:6px;
+    margin-bottom:12px;
+    font-weight:700;
+    font-size: 40px;
+    text-align:center
+}
+
 .order-container {
         max-width: 600px;
         margin: 40px auto;
