@@ -39,6 +39,10 @@ body {
     line-height: 1.7;
 }
 
+.logo img {
+    height: 100px;
+}
+
 .bg-video {
     position: fixed;
     top: 0;

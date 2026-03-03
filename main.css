@@ -22,8 +22,8 @@ nav {
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
+.logo img {
+    height: 100px;
     margin: 0;
 }
 

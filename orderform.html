@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Essence Vault - Order Form</title>
     <link rel="stylesheet" href="orderform.css" />
+    <link rel="icon" href="images/logo.png" type="image/png"/>
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">
-          <h1>Essence Vault</h1>
-        </div>
+      <img src="images/logo.png" alt="Essence Vault Logo">
+    </div>
         <ul class="nav-links">
           <li><a href="main.html">Home</a></li>
           <li><a href="main.html#products">Products</a></li>
@@ -54,19 +55,19 @@
             <div class="product-option">
               <input type="checkbox" id="ice" name="products" value="Hawas Ice" />
               <label for="ice">Hawas Ice</label>
-              <input type="number" name="quantity-ice" min="1" value="1" class="product-quantity" />
+              <input type="number" name="quantity-ice" min="0" value="0" class="product-quantity" />
             </div>
 
             <div class="product-option">
               <input type="checkbox" id="fire" name="products" value="Hawas Fire" />
               <label for="fire">Hawas Fire</label>
-              <input type="number" name="quantity-fire" min="1" value="1" class="product-quantity" />
+              <input type="number" name="quantity-fire" min="0" value="0" class="product-quantity" />
             </div>
 
             <div class="product-option">
               <input type="checkbox" id="elixir" name="products" value="Hawas Elixir" />
               <label for="elixir">Hawas Elixir</label>
-              <input type="number" name="quantity-elixir" min="1" value="1" class="product-quantity" />
+              <input type="number" name="quantity-elixir" min="0" value="0" class="product-quantity" />
             </div>
 
             <h3 style="margin-top: 20px;">Women's Fragrances</h3>
@@ -74,8 +75,19 @@
             <div class="product-option">
               <input type="checkbox" id="diva" name="products" value="Hawas Diva" />
               <label for="diva">Hawas Diva</label>
-              <input type="number" name="quantity-diva" min="1" value="1" class="product-quantity" />
+              <input type="number" name="quantity-diva" min="0" value="0" class="product-quantity" />
             </div>
+
+            <div class="product-option">
+              <input type="checkbox" id="her" name="products" value="Hawas Her" />
+              <label for="her">Hawas Her</label>
+              <input type="number" name="quantity-her" min="0" value="0" class="product-quantity" />
+            </div>
+
+            <div class="product-option">
+              <input type="checkbox" id="eclat" name="products" value="Hawas Éclat" />
+              <label for="eclat">Hawas Éclat</label>
+              <input type="number" name="quantity-eclat" min="0" value="0" class="product-quantity" />
           </div>
 
           <!-- PAYMENT METHOD -->

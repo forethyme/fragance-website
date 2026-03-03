@@ -39,6 +39,10 @@ body {
     line-height: 1.7;
 }
 
+.logo img {
+    height: 100px;
+}
+
 .bg-video {
     position: fixed;
     top: 0;
@@ -94,13 +98,13 @@ body {
     margin: 20px auto;
     padding: 24px 28px;
     max-width: 600px;
-    border-left: 4px solid #124b85;
+    border-left: 4px solid #a93aa3;
     border-radius: 4px;
     text-align: left;
 }
 
 .testimonial-card p {
-    font-size: 1.05rem;
+    font-size: 1.05rem; 
     line-height: 1.7;
     color: #f0f0f0;
     margin: 0 0 8px 0;

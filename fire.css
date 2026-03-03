@@ -39,6 +39,10 @@ body {
     line-height: 1.7;
 }
 
+.logo img {
+    height: 100px;
+}
+
 .bg-video {
     position: fixed;
     top: 0;
@@ -94,7 +98,7 @@ body {
     margin: 20px auto;
     padding: 24px 28px;
     max-width: 600px;
-    border-left: 4px solid #124b85;
+    border-left: 4px solid #ff0000;
     border-radius: 4px;
     text-align: left;
 }
